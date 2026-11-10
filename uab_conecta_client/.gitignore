@@ -1,0 +1,16 @@
+# Dependencias
+**/node_modules/
+
+# Compilaciones
+**/dist/
+**/build/
+
+# Secretos y variables de entorno (OBLIGATORIO)
+**/.env
+**/.env.*
+!**/.env.example
+
+# Logs y editores
+*.log
+.DS_Store
+.vscode/
